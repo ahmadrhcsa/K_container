@@ -9,4 +9,3 @@ dnf install bash nmap iproute && \
 dnf clean all
 
 ENTRYPOINT ["/usr/bin/nmap"]
-CMD ["-sn", "10.0.2.15/24"]
